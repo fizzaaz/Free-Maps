@@ -1,0 +1,35 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(191, 171, 171);
+    color: rgb(6, 30, 54);
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+.donate-button {
+    background-color: rgba(166, 216, 254);
+    border: none;
+    border-radius: 12px;
+    font-size: 14px;
+    padding: 8px;
+    color: rgb(6, 30, 54);
+    font-weight: 600;
+}
+
+.donate-button:hover {
+    background-color: rgb(242, 246, 248, 0.76);
+}
+
+.donate {
+    padding-right: inherit;
+}
+
+a.social-icon {
+    margin-right: .25em;
+}
+
